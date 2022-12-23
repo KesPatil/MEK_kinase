@@ -73,7 +73,7 @@ The output of the metadynamics run are the HILLS files. We will have ten of them
 
 Analysis of the trajectories was done using python and mostly MDanalysis package in python: https://www.mdanalysis.org  <br />
 
- The folder F_post_processing contains three codes: <br />
+``diff @@ The folder F_post_processing contains three codes:@@ ``` <br />
  <p align="justify">
  1. ```diff @@ Aloop_helicity.ipynb @@ ``` is the code to compute hbonds that contribute to making the partial helix in the activation loop of kinase <br />
  2. `Analysis_weighted_correlation.ipynb` is the code that computes boltzmann weighted SASA, Hbond and their log ratio plot  <br />
