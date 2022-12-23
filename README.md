@@ -77,15 +77,15 @@ Analysis of the trajectories was done using python and mostly MDanalysis package
 
  + `Aloop_helicity.ipynb` is the code to compute hbonds that contribute to making the partial helix in the activation loop of kinase <br />
  + `Analysis_weighted_correlation.ipynb` is the code that computes boltzmann weighted SASA, Hbond and their log ratio plot  <br />
- 3. `Boltz_corr_plotter.ipynb` is the code to plot the boltzmann weighted correlation matrices  <br />
- 4. `Dihedral_compute.ipynb` is the code to compute the distribution of the dihedral angle representing the DFG flip  <br />
- 5. `FELandscape_plotter.ipynb` is the code to plot the free energy landscape  <br />
- 6. `FELandscape_to_zone_structure_extractor.ipynb` is the code to extract structures from chosen zones on the free energy landscape   <br />
- 7. `Hierarchical_cluster.ipynb` is the code to plot the hierarchical cluster differentiating dynamics of mutated MEK systems  <br />
- 8. `KE_salt_bridge.ipynb` is the code to compute the distribution of the KE salt bridge distance  <br />
- 9. `boltz_corr1.py` is the parallelized code to compute boltzmann weighted correlations  <br />
- 10. `service.sh` is bash script to extract protein trajectory from system trajectory  <br />
- 11. `zone_highlighter.ipynb` is the code to identify specific zones on the free energy landscape  <br />
+ + `Boltz_corr_plotter.ipynb` is the code to plot the boltzmann weighted correlation matrices  <br />
+ + `Dihedral_compute.ipynb` is the code to compute the distribution of the dihedral angle representing the DFG flip  <br />
+ + `FELandscape_plotter.ipynb` is the code to plot the free energy landscape  <br />
+ + `FELandscape_to_zone_structure_extractor.ipynb` is the code to extract structures from chosen zones on the free energy landscape   <br />
+ + `Hierarchical_cluster.ipynb` is the code to plot the hierarchical cluster differentiating dynamics of mutated MEK systems  <br />
+ + `KE_salt_bridge.ipynb` is the code to compute the distribution of the KE salt bridge distance  <br />
+ + `boltz_corr1.py` is the parallelized code to compute boltzmann weighted correlations  <br />
+ + `service.sh` is bash script to extract protein trajectory from system trajectory  <br />
+ + `zone_highlighter.ipynb` is the code to identify specific zones on the free energy landscape  <br />
 
 
 ## Citations
