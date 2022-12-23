@@ -75,8 +75,8 @@ Analysis of the trajectories was done using python and mostly MDanalysis package
 
  The folder F_post_processing contains three codes: <br />
 
- 1. ```diff  Aloop_helicity.ipynb ``` is the code to compute hbonds that contribute to making the partial helix in the activation loop of kinase <br />
- 2. `Analysis_weighted_correlation.ipynb` is the code that computes boltzmann weighted SASA, Hbond and their log ratio plot  <br />
+ + `Aloop_helicity.ipynb` is the code to compute hbonds that contribute to making the partial helix in the activation loop of kinase <br />
+ + `Analysis_weighted_correlation.ipynb` is the code that computes boltzmann weighted SASA, Hbond and their log ratio plot  <br />
  3. `Boltz_corr_plotter.ipynb` is the code to plot the boltzmann weighted correlation matrices  <br />
  4. `Dihedral_compute.ipynb` is the code to compute the distribution of the dihedral angle representing the DFG flip  <br />
  5. `FELandscape_plotter.ipynb` is the code to plot the free energy landscape  <br />
