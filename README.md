@@ -1,7 +1,7 @@
 ```diff
 
 @@ This is a purple colored line @@
-```
+
 
 
 
@@ -103,3 +103,4 @@ If you found the above scripts and/or codes helpful in your work, please cite: <
 2. Patil, Keshav, et al. "Computational studies of anaplastic lymphoma kinase mutations reveal common mechanisms of oncogenic activation." Proceedings of the National Academy of Sciences 118.10 (2021).
 3.
 </p>
+```
