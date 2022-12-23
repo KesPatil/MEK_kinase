@@ -3,7 +3,7 @@ This GitHub repo has folders required for setting up the molecular dynamics simu
 
 
 <p align="justify">
-README:  There are three folders F_unbiased that includes the files to setup and perform Unbiased Molecular Dynamics, F_metad contains files to setup and perform metadynamics, F_post_processing_codes contains files to perform post processing <br />
+<p style="color:red,text-align:center">READEM</p>:  There are three folders F_unbiased that includes the files to setup and perform Unbiased Molecular Dynamics, F_metad contains files to setup and perform metadynamics, F_post_processing_codes contains files to perform post processing <br />
 </p>
 
 ## Folders
