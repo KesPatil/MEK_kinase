@@ -1,9 +1,14 @@
+<style type="text/css">
+  .highlight {color: orange}
+
+</style>
+
 # MEK_kinase
 This GitHub repo has folders required for setting up the molecular dynamics simulations, metadynamics simulations, and  post-processing codes for studies on MEK kinase and mutations
 
 
-<p align="justify", color='red'>
-README:  There are three folders F_unbiased that includes the files to setup and perform Unbiased Molecular Dynamics, F_metad contains files to setup and perform metadynamics, F_post_processing_codes contains files to perform post processing <br />
+<p align="justify">
+README: <span class="highlight"> and these words are different</span> There are three folders F_unbiased that includes the files to setup and perform Unbiased Molecular Dynamics, F_metad contains files to setup and perform metadynamics, F_post_processing_codes contains files to perform post processing <br />
 </p>
 
 ## Folders
