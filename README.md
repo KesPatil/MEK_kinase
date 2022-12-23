@@ -1,6 +1,5 @@
-```diff
 
-@@ This is a purple colored line @@
+
 
 
 
@@ -15,7 +14,7 @@ README:  There are three folders F_unbiased that includes the files to setup and
 
 ## Folders
 
-@@F_unbiased:@@  This folder has the input gromacs .mdp scripts required to perform Unbiased Molecular Dynamics and the active and the inactive structures of ALK <br />
+```diff @@F_unbiased:@@``` This folder has the input gromacs .mdp scripts required to perform Unbiased Molecular Dynamics and the active and the inactive structures of ALK <br />
 1. The topology files .top are generated using Gromacs function : "pdb2gmx" and we implement charmm27 forcefield <br />
 2. The outputs (.gro, .cpt, .top, .tpr) of the unbiased MD simualtion are inputs to Metadynamics. The active and inactive MEK structures at 101 ns of MD simulation were chosen as reference in the Metadynamics run. These structures are included in F_metad as  active_mek_wt_protein.pdb and  inactive_mek_wt_protein.pdb <br />
 
@@ -103,4 +102,4 @@ If you found the above scripts and/or codes helpful in your work, please cite: <
 2. Patil, Keshav, et al. "Computational studies of anaplastic lymphoma kinase mutations reveal common mechanisms of oncogenic activation." Proceedings of the National Academy of Sciences 118.10 (2021).
 3.
 </p>
-```
+
