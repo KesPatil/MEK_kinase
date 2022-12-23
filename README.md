@@ -1,6 +1,5 @@
 ```diff
-- This is a red colored line
-+ This is a green colored line
+
 @@ This is a purple colored line @@
 ```
 
@@ -16,11 +15,11 @@ README:  There are three folders F_unbiased that includes the files to setup and
 
 ## Folders
 
-F_unbiased:  This folder has the input gromacs .mdp scripts required to perform Unbiased Molecular Dynamics and the active and the inactive structures of ALK <br />
+@@F_unbiased:@@  This folder has the input gromacs .mdp scripts required to perform Unbiased Molecular Dynamics and the active and the inactive structures of ALK <br />
 1. The topology files .top are generated using Gromacs function : "pdb2gmx" and we implement charmm27 forcefield <br />
 2. The outputs (.gro, .cpt, .top, .tpr) of the unbiased MD simualtion are inputs to Metadynamics. The active and inactive MEK structures at 101 ns of MD simulation were chosen as reference in the Metadynamics run. These structures are included in F_metad as  active_mek_wt_protein.pdb and  inactive_mek_wt_protein.pdb <br />
 
-F_metad: This folder has the input scripts required to perform Metadynamics and also the output free energy file that is obtained by summing over HILLS files <br />
+@@F_metad:@@ This folder has the input scripts required to perform Metadynamics and also the output free energy file that is obtained by summing over HILLS files <br />
 1. plumed.dat - a plumed script that needs to be run for performing Metadynamcs <br />
 2. mek_active_CA.pdb - the reference active structure, one of the two collective variables is RMSD from this structure <br />
 3. mek_inactive_CA.pdb - the reference inactive structure, one of the two collective variables is RMSD from this structure <br />
@@ -30,7 +29,7 @@ PS note: Additionally, you would need the usual gromacs file:  .mdp file, .top f
 
 4. fes_8us_wt_mintozero.dat - The free energy file which has free energy at every coordinate on CV space obtained by summing over HILLS files. <br />
 
-F_post_processing_codes: This folder contain the python scripts used for post-processing trajectories data to calculate boltzmann weighted correlations matrix, sasa, hydrogen bond occupancies and plot free energy landscapes, extract structures from zones and check convergence of metadynamics free energy zones  </br> 
+@@F_post_processing_codes:@@ This folder contain the python scripts used for post-processing trajectories data to calculate boltzmann weighted correlations matrix, sasa, hydrogen bond occupancies and plot free energy landscapes, extract structures from zones and check convergence of metadynamics free energy zones  </br> 
 
 
 
