@@ -91,7 +91,12 @@ Analysis of the trajectories was done using python and mostly MDanalysis package
 
 ### 4. For docking input and output files <br />
 
-Krishna can you give me some text here to write and I will add it, Thanks  <br />
+Docking simulations were performed following the Induced Fit protocol using Schrodinger’s (v. 2019.4) Glide software. The `mek_docking_files` folder contains the input and output files from our simulations. Each system will have the following files: <br />
+
++ `ATP-out.maegz` is the input ligand file. <br />
++ `structure.pdb` is the input receptor structure file. <br />
++ `system_ligand.prj` contains the receptor structure along with water molecules, Mg2+ ions, and ATP-GS aligned to the binding site. <br />
++ `system_docking-out.maegz` contains the output poses from the docking simulation. <br />
 
 ## Citations
 
