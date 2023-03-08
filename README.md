@@ -104,6 +104,5 @@ If you have any suggestions or queries please feel free to reach out at : patilk
 If you found the above scripts and/or codes helpful in your work, please cite: <br />
 1. Jordan, E. Joseph, et al. "Computational algorithms for in silico profiling of activating mutations in cancer." Cellular and Molecular Life Sciences 76.14 (2019): 2663-2679.
 2. Patil, Keshav, et al. "Computational studies of anaplastic lymphoma kinase mutations reveal common mechanisms of oncogenic activation." Proceedings of the National Academy of Sciences 118.10 (2021).
-3.
 </p>
 
