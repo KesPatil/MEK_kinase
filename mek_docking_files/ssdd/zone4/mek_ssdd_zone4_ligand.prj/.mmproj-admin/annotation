@@ -1,0 +1,24 @@
+--- This project was created on Sat Nov  7 13:14:56 2020
+
+-----
+Sat Nov  7 13:16:41 2020
+Imported file:
+/Users/krishnasuresh/Desktop/krishna/UPenn/RaviLab/MEK/atp_docking/ssdd/zone3/zone3.pdb
+
+-----
+Sat Nov  7 13:19:14 2020
+Imported file:
+/opt/schrodinger/suites2019-4/3eqd.pdb
+
+-----
+Tue Nov 10 19:34:46 2020
+Starting Induced Fit Docking
+Job name: mek_ssdd_zone3_atp_docking
+Job ID: krishnas-mbp-0-5fab31a6
+Host:localhost
+
+-----
+Tue Nov 10 19:34:46 2020
+Starting Induced Fit Docking
+Job name: mek_ssdd_zone3_atp_docking
+Job ID: krishnas-mbp-0-5fab31a6
